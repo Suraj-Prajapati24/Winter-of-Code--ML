@@ -33,7 +33,6 @@ y_train, y_test = y[:split_index], y[split_index:]
 ids_test = ids[split_index:]  # Extract IDs for the test set---to be added in the file of predicted values;
 
 
-
 #impot the manuallly created linear regression and feed data
 from linear2 import LinearRegression
 regressor = LinearRegression(learning_rate=0.01, n_iters=1000)
