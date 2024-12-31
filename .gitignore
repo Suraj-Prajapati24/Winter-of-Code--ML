@@ -1,0 +1,75 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Compiled C extensions
+*.so
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python packages
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Backup files
+*.~*
+
+# Cache files
+*.cache
+*.pkl
+*.h5
+
+# Dataset files (if not required in the repo)
+*.csv
+*.tsv
+*.json
+*.xlsx
+
+# Plot and visualization files
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Miscellaneous
+*.out
+*.lock
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+# PyCharm settings (if using PyCharm)
+.idea/
+
+# Machine Learning Library - Exclude Pandas, NumPy, Matplotlib specific temp files
+*.npy
+*.npz
